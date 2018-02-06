@@ -56,3 +56,11 @@ article h4{
 article ul{
 	list-style: 
 }
+.izquierda{
+	width: 300px;
+	display: flex;
+}
+.derecha{
+	width: 500px;
+	display: flex;
+}
