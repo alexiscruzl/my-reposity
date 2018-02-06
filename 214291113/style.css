@@ -1,0 +1,58 @@
+/*{
+	color: blue;
+}
+p{
+	color: red;
+}
+#profile-pic img{
+	border-radius: 50%;
+}*/
+profile-pic img{
+	border-radius: 50%;
+}
+ul{
+	list-style-type: none;
+}
+aside { 
+	background-color: #647087;
+}
+aside *{
+	color: white;
+}
+aside h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+aside section h2:first-child{
+	border-bottom: 2px white solid;
+
+}
+main section >h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.hero{
+	background-color: #f7ddc3;
+	box-shadow: 3px 3px 30px 5px #547087 inset;
+}
+.hero h2{
+	color:white;
+	border-top:2px solid white;
+	text-transform: none;
+	letter-spacing: normal;
+}
+.about-me{
+	background-color: pink;
+}
+.about-me h2{
+	background-color: white;
+}
+article h3{
+font-weight: bold;
+}
+article h4{
+	font-weight: bold;
+}
+article ul{
+	list-style: 
+}
