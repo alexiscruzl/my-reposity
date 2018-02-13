@@ -7,14 +7,20 @@ p{
 #profile-pic img{
 	border-radius: 50%;
 }*/
-profile-pic img{
+/*----foto de perfil-------*/
+#profile-pic img{
 	border-radius: 50%;
+	width: 110px;
+	height: 90px;
 }
+/*------general------*/
 ul{
 	list-style-type: none;
 }
+/*-------aside-------*/
 aside { 
 	background-color: #647087;
+	margin-left: 3%;
 }
 aside *{
 	color: white;
@@ -31,11 +37,17 @@ main section >h2{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
+meter {
+    display: block;
+    width: 90%;
+}
 .hero{
 	background-color: #f7ddc3;
 	box-shadow: 3px 3px 30px 5px #547087 inset;
+	padding: 15% 0%;
 }
 .hero h2{
+	letter-spacing: 12px;
 	color:white;
 	border-top:2px solid white;
 	text-transform: none;
@@ -61,6 +73,18 @@ article ul{
 	display: flex;
 }
 .derecha{
-	width: 500px;
+	width: 1200px;
 	display: flex;
+	margin-left: 3%;
+}
+.general{
+	display: flex;
+}
+
+.references{
+	display: flex;
+flex-wrap:;
+}
+.references article{
+	width: 50%;
 }
