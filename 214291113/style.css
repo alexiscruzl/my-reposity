@@ -88,3 +88,12 @@ flex-wrap:;
 .references article{
 	width: 50%;
 }
+@media(max-width: 400px){
+	.main-container{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	aside, main{
+		flex-basis: 100%;
+	}
+}
