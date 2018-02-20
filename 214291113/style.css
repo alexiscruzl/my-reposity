@@ -89,9 +89,10 @@ flex-wrap:;
 	width: 50%;
 }
 @media(max-width: 400px){
-	.main-container{
+	.general{
 		width: 100%;
 		flex-wrap: wrap;
+		font-size: 1.5em;
 	}
 	aside, main{
 		flex-basis: 100%;
