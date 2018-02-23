@@ -68,22 +68,21 @@ article h4{
 article ul{
 	list-style: 
 }
-.izquierda{
-	width: 300px;
-	display: flex;
+aside{
+	width: 30%;
 }
-.derecha{
-	width: 1200px;
-	display: flex;
+main{
+	width: 70%;
 	margin-left: 3%;
 }
 .general{
+	width: 100%;
 	display: flex;
 }
 
 .references{
 	display: flex;
-flex-wrap:;
+/*flex-wrap:;*/
 }
 .references article{
 	width: 50%;
@@ -93,6 +92,9 @@ flex-wrap:;
 		width: 100%;
 		flex-wrap: wrap;
 		font-size: 1.5em;
+	}
+	main{
+		
 	}
 	aside, main{
 		flex-basis: 100%;
