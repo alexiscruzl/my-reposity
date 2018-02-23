@@ -21,6 +21,7 @@ ul{
 aside { 
 	background-color: #647087;
 	margin-left: 3%;
+	width: 30%;
 }
 aside *{
 	color: white;
@@ -68,9 +69,6 @@ article h4{
 article ul{
 	list-style: 
 }
-aside{
-	width: 30%;
-}
 main{
 	width: 70%;
 	margin-left: 3%;
@@ -81,8 +79,10 @@ main{
 }
 
 .references{
+	background-color: #e7e7e7;
 	display: flex;
-/*flex-wrap:;*/
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
 }
 .references article{
 	width: 50%;
