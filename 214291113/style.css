@@ -10,17 +10,19 @@ p{
 /*----foto de perfil-------*/
 #profile-pic img{
 	border-radius: 50%;
-	width: 110px;
-	height: 90px;
+	width: 150px;
+	height: 120px;
 }
 /*------general------*/
+body{
+	margin:0px;
+}
 ul{
 	list-style-type: none;
 }
 /*-------aside-------*/
 aside { 
 	background-color: #647087;
-	margin-left: 3%;
 	width: 30%;
 }
 aside *{
@@ -34,6 +36,7 @@ aside section h2:first-child{
 	border-bottom: 2px white solid;
 
 }
+/*------main-------*/
 main section >h2{
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -43,23 +46,26 @@ meter {
     width: 90%;
 }
 .hero{
+	text-align: center;
+	letter-spacing: 5px;
 	background-color: #f7ddc3;
 	box-shadow: 3px 3px 30px 5px #547087 inset;
 	padding: 15% 0%;
 }
 .hero h2{
-	letter-spacing: 12px;
 	color:white;
 	border-top:2px solid white;
 	text-transform: none;
 	letter-spacing: normal;
 }
+/*-----about me -----*/
 .about-me{
 	background-color: pink;
 }
 .about-me h2{
 	background-color: white;
 }
+/*-----articule title------*/
 article h3{
 font-weight: bold;
 }
@@ -87,6 +93,11 @@ flex-wrap: wrap;
 .references article{
 	width: 50%;
 }
+/*-------DL-------*/
+dt{
+	width: 40%;
+	float: left;
+}
 @media(max-width: 400px){
 	.general{
 		width: 100%;
@@ -94,7 +105,7 @@ flex-wrap: wrap;
 		font-size: 1.5em;
 	}
 	main{
-		
+		margin:0px;
 	}
 	aside, main{
 		flex-basis: 100%;
